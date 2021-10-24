@@ -1,0 +1,40 @@
+mixin contacts()
+  #contacts.contacts-section
+    .container
+      section.contact-card
+        header.contact-card__header
+          h2 Contact information
+          h4 I am happy to answer your questions
+        .contact-info
+          .contact-info__logo MA
+          .contact-info__group
+            .contact-info__additional
+              p Are you interested in my research activities?
+              p Did you come here via GSA 2021?
+              p Do you want to cooperate?
+            .contact-info__vcard.vcard
+              h4.fn.org Michał Adamski
+              p.role.title Biomedical Engineering PhD student
+              p.icon.icon_location
+                a.adr.js-anchor(href="https://g.page/politechnika_wroclawska?share" target="_blank")
+                  span.country-name Poland
+                  | ,&nbsp;
+                  span.locality Wrocław
+              p.icon.icon_mail
+                a.email(href="mailto:michal.adamski@pwr.edu.pl") michal.adamski@pwr.edu.pl
+              //- p.icon.icon_phone
+              //-   a.email(href="tel:1111111111") 111-111-11-11
+            ul.contact-info__social
+              //- li
+              //-   a.icon.icon_fb(rel="nofollow") I'm on Facebook
+              //- li
+              //-   a.icon.icon_twi(rel="nofollow") My Twitter
+              //- li
+              //-   a.icon.icon_gplus(rel="nofollow") I'm on Google+
+              //- li
+              //-   a.icon.icon_vk(rel="nofollow") I'm in Vk
+              li
+                a.icon.icon_in(href="https://www.linkedin.com/in/michał-adamski-813725197" rel="nofollow" target="_blank") My Linkedin profile
+              //- li
+                //- a.icon.icon_rss(rel="nofollow") RSS feed... maybe
+    #gmap.gmap
